@@ -8,8 +8,7 @@ function Products() {
 
   useEffect(() => {
     // Fetching data from an API
-    //fetch('http://localhost:3001/posts')
-     fetch('https://studious-giggle-65w7jxxw5rw25jwx-3001.app.github.dev/posts')
+     fetch('https://studious-giggle-65w7jxxw5rw25jwx-3001.app.github.dev/products')
       .then(response => {
         console.log(response)
         if (!response.ok) {
@@ -37,17 +36,6 @@ function Products() {
   }
 
   return (
-    // <div>
-    //   <h2>Posts</h2>
-    //   <ul>
-    //     {data.slice(0, 10).map(post => (  // Limiting to the first 10 posts
-    //       <li key={post.id}>
-    //         <h3>{post.name}</h3>
-    //         {/* <p>{post.body}</p> */}
-    //       </li>
-    //     ))}
-    //   </ul>
-    // </div>
 
 <div>
       <h1>Product List</h1>
